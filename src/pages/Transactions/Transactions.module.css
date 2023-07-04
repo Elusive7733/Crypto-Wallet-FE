@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.top-box {
+  margin: 10px;
+}
+
+.top-boxh3 {
+  font-size: 24px;
+}
+
+.select-user {
+  margin: 10px;
+}
+
+h3 em {
+  color: var(--primary);
+}
+
+.transactions-list {
+  margin: 10px 10px 0px 10px;
+}
+
+.grid-header {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  color: var(--example-label);
+  font-size: 12px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  width: 15%;
+  text-align: center;
+}
+
+.coin {
+  width: 35%;
+  text-align: center;
+}
+
+.quantity {
+  width: 25%;
+  text-align: center;
+}
+
+.terminal {
+  width: 25%;
+  text-align: center;
+}
+
+.transaction-heading {
+  text-transform: uppercase;
+}

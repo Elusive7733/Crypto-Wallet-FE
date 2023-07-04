@@ -1,0 +1,37 @@
+{
+  "PKR": {
+    "name": "Rupees",
+    "acronym": "PKR",
+    "quantity": 3000000
+  },
+  "BTC": {
+    "name": "Bitcoin",
+    "acronym": "BTC",
+    "quantity": 0.000041
+  },
+  "ETH": {
+    "name": "Ethereum",
+    "acronym": "ETH",
+    "quantity": 0.005
+  },
+  "DOGE": {
+    "name": "Dogecoin",
+    "acronym": "DOGE",
+    "quantity": 37
+  },
+  "ADA": {
+    "name": "Cardano",
+    "acronym": "ADA",
+    "quantity": 20
+  },
+  "SOL": {
+    "name": "Solana",
+    "acronym": "SOL",
+    "quantity": 0.5
+  },
+  "USDT": {
+    "name": "Tether",
+    "acronym": "USDT",
+    "quantity": 20
+  }
+}

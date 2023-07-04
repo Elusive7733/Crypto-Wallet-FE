@@ -1,0 +1,57 @@
+{
+  "BTC": {
+    "name": "Bitcoin",
+    "acronym": "BTC",
+    "quantity": 1
+  },
+  "ETH": {
+    "name": "Ethereum",
+    "acronym": "ETH",
+    "quantity": 1
+  },
+  "DOGE": {
+    "name": "Dogecoin",
+    "acronym": "DOGE",
+    "quantity": 1
+  },
+  "ETH2": {
+    "name": "Ethereum 2",
+    "acronym": "ETH2",
+    "quantity": 1
+  },
+  "ADA": {
+    "name": "Cardano",
+    "acronym": "ADA",
+    "quantity": 1
+  },
+  "SOL": {
+    "name": "Solana",
+    "acronym": "SOL",
+    "quantity": 1
+  },
+  "USDT": {
+    "name": "Tether",
+    "acronym": "USDT",
+    "quantity": 1
+  },
+  "LTC": {
+    "name": "Litecoin",
+    "acronym": "LTC",
+    "quantity": 1
+  },
+  "SHIB": {
+    "name": "Shiba Inu",
+    "acronym": "SHIB",
+    "quantity": 1
+  },
+  "ATOM": {
+    "name": "Cosmos",
+    "acronym": "ATOM",
+    "quantity": 1
+  },
+  "BCH": {
+    "name": "Bitcoin Cash",
+    "acronym": "BCH",
+    "quantity": 1
+  }
+}

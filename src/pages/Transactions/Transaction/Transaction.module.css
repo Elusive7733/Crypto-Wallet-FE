@@ -1,0 +1,83 @@
+.transaction-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--primary);
+}
+
+.type {
+  width: 15%;
+  justify-content: center;
+  /* padding-right: 10px; */
+}
+
+.type-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.send {
+  color: var(--negativeCTA);
+}
+
+.receive {
+  color: var(--positiveCTA);
+}
+
+.coin {
+  width: 35%;
+  text-align: center;
+  padding-left: 10px;
+}
+
+.coin .coin-picture {
+  width: 20%;
+}
+
+.coin .coin-picture img {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: circle();
+}
+
+.coin .coin-name {
+  text-align: left;
+  justify-self: center;
+  text-justify: center;
+  padding-left: 5px;
+  width: 100px;
+}
+
+.quantity {
+  width: 25%;
+  font-size: 11px;
+  color: var(--example-label);
+}
+
+.terminal {
+  width: 25%;
+  justify-content: center;
+
+  /*. Clip Text (show in modal) */
+  overflow: clip;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  /*. Display Small Text */
+  /* display: inline-block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 9px;
+  color: var(--example-label); */
+}

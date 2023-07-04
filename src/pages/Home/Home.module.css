@@ -1,0 +1,75 @@
+.wrapper {
+  width: 85%;
+  height: 100vh;
+  margin: 0 7.5%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topBox {
+  width: 100%;
+}
+
+.topBox .heading {
+  font-size: 38px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.topBox .heading .name {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.flag-picture {
+  width: 40px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.flag-picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.topBox p {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bottomBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+.button {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.buttonPrimary {
+  background-color: var(--primary);
+  color: var(--primaryText);
+}
+
+.buttonSecondary {
+  background-color: transparent;
+  color: var(--secondaryText);
+  border: 2px solid var(--primary);
+}

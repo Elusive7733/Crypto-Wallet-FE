@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.top-box {
+  margin: 10px;
+}
+
+.top-box h3 {
+  font-size: 24px;
+}
+
+h3 em {
+  color: var(--primary);
+}
+
+.coin-list {
+  margin: 10px 10px 0px 10px;
+}

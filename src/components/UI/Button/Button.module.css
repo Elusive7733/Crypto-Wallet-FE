@@ -1,0 +1,77 @@
+.button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 4px !important;
+  padding: 15px 10px !important;
+  height: 45px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button * {
+  font-size: inherit;
+}
+
+.primary {
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+}
+
+.small {
+  font-size: 10px !important;
+  height: 34px !important;
+  width: 50%;
+}
+
+.primary-invert {
+  background-color: transparent !important;
+  color: var(--primary) !important;
+  border: 2px solid var(--primary) !important;
+  font-weight: 500;
+}
+
+.secondary {
+  background-color: var(--secondary) !important;
+  color: white !important;
+}
+
+.delete {
+  background-color: var(--negativeCTA) !important;
+  color: var(--secondary) !important;
+}
+
+.negative-outline {
+  background-color: transparent !important;
+  border: 1px solid var(--negativeCTA) !important;
+  color: var(--negativeCTA) !important;
+}
+
+.delete-icon {
+  background-color: var(--negativeCTA) !important;
+  color: white !important;
+  width: 34px;
+}
+.delete-icon svg {
+  font-size: 1.2rem;
+}
+
+/* RESET */
+.reset {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  border-radius: none !important;
+  padding: 0 !important;
+  background-color: inherit !important;
+  color: black !important;
+  height: inherit;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: 0;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "crypto-wallet-fe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

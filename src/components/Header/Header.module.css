@@ -1,0 +1,25 @@
+.container {
+  background-color: var(--primary);
+  color: var(--secondary);
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.backButton svg {
+  color: var(--secondary);
+  width: 20px;
+  height: 20px;
+}

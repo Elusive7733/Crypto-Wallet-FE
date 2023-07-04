@@ -1,0 +1,35 @@
+.coins-wrapper {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+.grid-header {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  color: var(--example-label);
+  font-size: 12px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin {
+  width: 45%;
+  text-align: left;
+}
+
+.quantity {
+  width: 15%;
+  text-align: center;
+}
+
+.price {
+  width: 40%;
+  text-align: right;
+}
+
+.coin-heading {
+  text-transform: uppercase;
+}

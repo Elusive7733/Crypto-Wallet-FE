@@ -1,0 +1,30 @@
+[
+  {
+    "price": "50000",
+    "timestamp": "Monday"
+  },
+  {
+    "price": "60000",
+    "timestamp": "Tuesday"
+  },
+  {
+    "price": "70000",
+    "timestamp": "Wednesday"
+  },
+  {
+    "price": "80000",
+    "timestamp": "Thursday"
+  },
+  {
+    "price": "70000",
+    "timestamp": "Friday"
+  },
+  {
+    "price": "60000",
+    "timestamp": "Saturday"
+  },
+  {
+    "price": "50000",
+    "timestamp": "Sunday"
+  }
+]

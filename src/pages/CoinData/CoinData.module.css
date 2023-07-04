@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.coin-info img {
+  width: 50px;
+  height: 50px;
+}
+
+.coin-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 5px;
+}
+
+.coin-name h3 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.coin-name p {
+  margin: 0px;
+  font-size: 12px;
+  filter: brightness(80%);
+}
+
+.coin-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+}
+.coin-price h3 {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.coin-price p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.positive {
+  color: var(--positiveCTA);
+}
+
+.negative {
+  color: var(--negativeCTA);
+}
+
+.timePeriod-select {
+  margin-top: 10px;
+}
+
+.chart {
+  margin-top: 20px;
+  width: 100%;
+  height: 70vh;
+}

@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  margin: 10%;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+  height: 150px;
+  /* margin: 10%; */
+  align-self: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--primary);
+  clip-path: circle();
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 50px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.container h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.container p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: var(--example-label);
+  /* font-style: italic; */
+}
+
+.container p em {
+  color: var(--primary);
+}
+
+.userInput {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+.OTPInput {
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  background: #1e1e1e;
+  color: var(--primary);
+  height: 40px;
+}
+
+.OTPInput:focus {
+  outline: 2px solid var(--primary);
+  /* user-select: all; */
+}
+
+.Header {
+  text-align: center;
+}
+
+.submit {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ConfirmButton {
+  width: 50% !important;
+}

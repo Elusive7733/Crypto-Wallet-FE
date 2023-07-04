@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.top-box {
+  margin: 10px;
+}
+
+.top-box h3 {
+  font-size: 24px;
+}
+
+.middle-box {
+  margin: 10px;
+  justify-self: center;
+  align-self: center;
+}
+
+.middle-box p span {
+  color: var(--primary);
+}
+
+.timePeriod-select {
+  margin: 10px;
+}
+
+.pie-chart {
+  width: 375px;
+  height: 250px;
+  justify-self: center;
+  align-self: center;
+  color: black;
+}
+
+.chart {
+  width: 375px;
+  height: 250px;
+}
+
+.coin-list {
+  margin: 10px 10px 0px 10px;
+}

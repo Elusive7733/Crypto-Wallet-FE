@@ -1,0 +1,14 @@
+.loader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader.subScreen{
+    margin-top: 100px;
+}
+
+.loader.empty{
+    height: 100vh !important;
+}
