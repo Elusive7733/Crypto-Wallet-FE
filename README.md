@@ -62,3 +62,8 @@ Price Graphs
   <img src="https://github.com/Elusive7733/Crypto-Wallet-FE/blob/main/Images/PriceGraph3.png?raw=true" alt="Price Graph 3"/>
 </p>
 
+---
+
+### Video
+
+https://github.com/Elusive7733/Crypto-Wallet-FE/assets/47422101/99794942-60a0-465a-91db-54d44b8ca6e6
